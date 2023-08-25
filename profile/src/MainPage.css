@@ -90,7 +90,6 @@
   flex-direction: column;
   width: 33%;
   height: 100%;
-  border: 2px solid black;
 }
 
   .userInfo {
@@ -119,7 +118,6 @@
 .Box2 {
   width: 40%;
   height: 100%;
-  border : 2px solid red;  
 }
 
     .Name {
@@ -156,7 +154,6 @@
 .Box3 {
   width: 33%;
   height: 100%;
-  border : 2px solid red;  
 }
 
 .Box4 {
