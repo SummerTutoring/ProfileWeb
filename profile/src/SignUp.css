@@ -1,0 +1,58 @@
+.App {
+    height: 100vmax;
+    width: 100vmax;
+    background-color: #D9D9D9;
+  }
+  
+  h1 {
+    font-size: 50px;
+  }
+  
+  .whiteBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+  }
+  
+  input {
+    margin-top: 10px;
+    border: 3px solid #596AFF;
+    box-shadow: 5px 5px 5px gray;
+    width: 250px;
+    height: 25px;
+    padding-left: 10px; 
+  }
+  
+  .firstInput {
+    margin-top: 70px;
+  }
+  
+  
+  .label-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 15px; 
+  }
+  
+  button {
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-color: #596AFF;
+    background-color: #596AFF;
+    font-size: 20px;
+  }

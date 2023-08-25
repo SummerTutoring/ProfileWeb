@@ -1,19 +1,21 @@
-
-import { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import './App.css';
-import { increment } from './redux/action';
+import './SignUp.css';
+import { Routes, Route, Link } from 'react-router-dom';
+import SignIn from './SignIn.js';
+import SignUp from './SignUp.js';
+import MainPage from './MainPage.js';
 
 function App() {
-  const [count,setCount] =useState(0)
   
-  useDispatch()
-  useSelector()
-  받아오는거
   return (
-    <div className="App">
-        <h1>Hello World</h1> 
-    </div>
+      <div className="App">
+
+        <Routes>
+          <Route path="/SignIn" element={<SignIn />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/MainPage" element={<MainPage />} />
+        </Routes>
+
+      </div>
   );
 }
 

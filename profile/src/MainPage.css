@@ -1,0 +1,170 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+}
+
+.left {
+  background-color: grey;
+  width:20%;
+  height: 100%;
+}
+
+.whiteBox1 {
+  width: 15%;
+  height: 95%;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-316%, -50%);
+  align-items: center;
+}
+
+.whiteBox2 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 95%;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+}
+
+.right {
+  width:80%;
+  height: 100%;
+}
+
+.mainButton {
+  color: white;
+  border-radius: 0px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.logout{
+  text-align: center;
+  font-size: 30px;
+  margin-top: auto;
+  cursor: pointer;
+  color: #596AFF;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.smallText {
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 100%;
+  height: 5%;
+  border-color: #BD00FF;
+}
+
+.largeText {
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  height: 40%;
+  border-color: #BD00FF;
+}
+
+.topBox {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+}
+
+.bottomBox {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  width: 100%;
+}
+
+.Box1 {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  border: 2px solid black;
+}
+
+  .userInfo {
+    text-align: center;
+  }
+
+    img {
+      margin-left: 10%;
+      margin-right: 10%;
+      border-color: #BD00FF;
+    }
+
+    .imageUpload {
+      margin-left: 11%;
+      display:inline-block;
+      width: 80%;
+      line-height: 50px;
+      margin-top: 30px;
+      text-align: center;
+      color: white;
+      box-shadow: 1px 1px 1px 1px black;
+      background-color: #596AFF;
+      font-size: 20px;
+    }
+
+.Box2 {
+  width: 40%;
+  height: 100%;
+  border : 2px solid red;  
+}
+
+    .Name {
+      margin-top: 20%;
+      margin-left: 7%;
+    }
+
+    .nameText {
+      width: 80%;
+      margin-top: 0px;
+      margin-left: 7%;
+    }
+
+    .birth {
+      margin-top: 5px;;
+      margin: 7%;
+    }
+
+    .birthBox {
+      height:40px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .yearSelect {
+      margin-left: 10%;
+    }
+
+    select {
+      width: 20%;
+      border: 3px solid #596AFF;
+    }
+
+.Box3 {
+  width: 33%;
+  height: 100%;
+  border : 2px solid red;  
+}
+
+.Box4 {
+  width: 70%;
+  height: 100%;
+}
+
+.Box5 {
+  width: 30%;
+  height: 100%;
+}
