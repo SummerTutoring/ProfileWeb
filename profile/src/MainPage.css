@@ -143,12 +143,22 @@
     }
 
     .yearSelect {
-      margin-left: 10%;
+      margin-left: 7%;
     }
 
     select {
       width: 20%;
       border: 3px solid #596AFF;
+    }
+
+
+    .adress {
+      margin-left: 7%;
+    }
+
+    .adressText {
+      width: 100%;
+      margin-left: 7%;
     }
 
 .Box3 {

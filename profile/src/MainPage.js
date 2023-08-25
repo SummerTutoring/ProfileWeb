@@ -94,7 +94,10 @@ function MainPage() {
 
                                 </select>
                                 <h3>일</h3>
+                                
                             </div>
+                            <h2 className="adress">주소지</h2>
+                            <input className="adressText" type='text' placeholder='주소를 입력하세요'></input>
                         </div>        
                         <div className="Box3"></div>    
                     </div>    
